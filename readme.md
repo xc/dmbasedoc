@@ -125,9 +125,10 @@ Readability
 - ID can only exist in config file(eg. web.config/digimaker.config/site.json). Never put id into template or worse csfile.
 - Template file name/folder name should try to show the actual meaning. eg. article/full-agreement.cshtml means the agreement article in full mode
 
-Security
+Security&Stability
 ---------
 - Never show technical message to end user.
+- Try to log and report error
 
 Reusability/Campatability
 ----------
