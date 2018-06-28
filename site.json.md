@@ -3,7 +3,7 @@ site.json
 Common Settings
 ------------------
 
-- Host: host name of the site. This is useful when multisites using different domains/sub domains. Multiple domain can be separated by ;
+- Host: host name of the site. This is useful when multisites using different domains/sub domains. Multiple domains can be separated by ;
 
 - Url: relative url of the site(eg. eng, which is under xxx.com/eng). Multiple url can be separated by ;
 
