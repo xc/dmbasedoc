@@ -1,20 +1,18 @@
 DMBase
 =============
 
-DMBase is a Digimaker(CMS) lightweight wrapper for projects to creating&maintaining a professional website easier/quicker. Shared features can be easilier maintained in different projects.
+DMBase is a Digimaker(CMS) lightweight wrapper for projects to creating&maintaining a professional website easier/quicker. It focus more on templating&code readbility with less coding.
 
 Example: http://dmbase.dev.digimaker.no
 
 
 Benefits
 ===========
-- Multi sites - so multiple sites can be hosted in one digimaker instance(so different sites can share settings - eg. layout, css, uploaded images, and also code is more controlable/updatable in git ).
+- Multi sites - Multiple sites can be hosted in one digimaker instance(so different sites can share settings - eg. layout, css, uploaded images, and also code is more controlable/updatable in git ).
 
 - Template override - make it easier to write template based on content and site(eg. article/menuitem attributes, subnode, content extension value). (for instance, error message can be customzied based on error code and site, instead of a standard .net 500 technical error)
 
-- Shared feature. eg. metadata output, google site search, print version, etc. And with time, more features will be added and will be easy to use.
-
-- Easily reuse and upgrade shared feature in c#/js/template invoke.
+- Shared feature and api. eg. metadata output, google site search, print version, SEO(for instance canical link) etc. And with time, more features will be added and will be easy to use.
 
 - Error report to administrator. 
 
