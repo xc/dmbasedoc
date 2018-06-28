@@ -19,15 +19,11 @@ Benefits
 - Debug info so the administrator can quickly know the rendering process and performance.
 
 
-1) How to use
-----------
-1.1) update/deploy to server
-script
+Update/deploy to project
+----------------------
 
-
-2) How to develop/extend
----------------
-
+Develop/extend dmbase
+-------------------
 
 
 
