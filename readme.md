@@ -3,6 +3,8 @@ DMBase
 
 DMBase is a Digimaker(CMS) wrapper for projects to creating&maintaining a professional website easier/quicker. Shared features can be easilier maintained in different projects.
 
+Example: http://dmbase.dev.digimaker.no
+
 There are some benefits using DMBase:
 - Multi sites - so multiple sites can be hosted in one digimaker instance(so different sites can share settings - eg. layout, css, uploaded images, and also code is more controlable/updatable in git ).
 
