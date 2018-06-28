@@ -1,7 +1,7 @@
 DMBase
 =============
 
-DMBase is a Digimaker(CMS) wrapper for projects to creating&maintaining a professional website easier/quicker. Shared features can be easilier maintained in different projects.
+DMBase is a Digimaker(CMS) lightweight wrapper for projects to creating&maintaining a professional website easier/quicker. Shared features can be easilier maintained in different projects.
 
 Example: http://dmbase.dev.digimaker.no
 
