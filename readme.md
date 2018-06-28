@@ -28,14 +28,9 @@ Improvements based on Digimaker
 - Menuitem view can easily invoke article view, article view invoking article view easier with override(comparing site builder).
 - Easier content/content extension fetching api. 2 ways: fetch content extension value from article, fetch article/menuitem based on content extension values
 
-Update/deploy to project
-----------------------
-
-Develop/extend dmbase
--------------------
 
 Set up new/Convert existing project to dmbase project
-=============
+------------------------
 1) Set up digimaker backend
 2) Checkout dmbase example
 3) Change digimkaer.config/ConnectionString to the right database connection
@@ -48,6 +43,13 @@ Set up new/Convert existing project to dmbase project
 More development will be on:
   - Configure override.json
   - Customize templates based on your need.
+
+Update/deploy to project
+----------------------
+
+Develop/extend dmbase
+-------------------
+
 
 API Reference 
 ===========================
