@@ -18,7 +18,7 @@ Benefits
 
 - Nice error page(overridable to different site) and error report to administrator. 
 
-- Debug info so the administrator can quickly know the rendering process and performance benchmark.
+- Output debug info under page so the administrator can quickly know the rendering process and performance benchmark.
 
 Improvements based on Digimaker
 --------------------
