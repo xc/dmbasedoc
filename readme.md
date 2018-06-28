@@ -71,11 +71,51 @@ Structure
 
 
 
+Features to be implemented
+================
+- Image alias(eg. small, mediam, frontpage) defined in site.json and used in template: eg. imagePath.ResizeImage( "small" ), so it uses the right size pictures.
+- Override.json supports 2 level config, meaning to put Site to a uppler level: 
+```
+{
+   "examplesite":
+    {
+    "Type": "article",
+    "Viewmode": "full",
+    "Extended_Layout": "3columns",
+    "Path": "article/full-3column.cshtml"
+    }
+    ...,
+    "common":
+    {
+    ...
+    }
+  }
+```
 
 
+- Content extension value override rule(override.json): 
 
+Eg 1.Direct attribute:
+```
+{
+    "Type": "article",
+    "Viewmode": "full",
+    "Extended_Layout": "3columns",
+    "Site": "examplesite",
+    "Path": "article/full-3column.cshtml"
+  }
+```
 
-
+Eg 2. Articles under a 'section':
+```
+{
+    "Type": "article",
+    "Viewmode": "full",
+    "Under_Extended_1_Section": "AboutUs",
+    "Site": "examplesite",
+    "Path": "article/full-3column.cshtml"
+  }
+```
 
 
 
