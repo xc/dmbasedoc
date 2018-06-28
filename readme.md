@@ -20,7 +20,7 @@ Benefits
 
 - Debug info so the administrator can quickly know the rendering process and performance benchmark.
 
-Improvements on Digimaker
+Improvements based on Digimaker
 --------------------
 - Nice url using mvc pattern instead of http handler(easier to understand&extend), removing Norwegian characters so url copy and paste looks better.
 - Handle picture in template/json(eg. define small, medium size) instead of settings in web.config
