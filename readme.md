@@ -125,8 +125,8 @@ Readability
 - Id can only exist in config file(eg. web.config/digimaker.config/site.json). Never put id into template or worse csfile
 - Template file name/folder name can show the actual meaning. eg. article/full-agreement.cshtml means the agreement article in full mode
 
-Reusability
+Reusability/Campatability
 ----------
 - Try to make api/feature/template layout reuseable. Try to avoid writing duplicated code for same feature(eg. fetching content extension value), put api into dmbase first and optimize api to make it nicer.
-
+- DMBase will be backward campatable, if there are 10 projects for instance, after updating dmbase, it will not break old feature, and some issues feature can even be improved automatically(eg. better error report).
 
