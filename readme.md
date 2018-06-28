@@ -119,6 +119,7 @@ Eg 2. Articles under a 'section':
 
 Development Principles
 ==============
+
 Readability
 -------------
 - ID can only exist in config file(eg. web.config/digimaker.config/site.json). Never put id into template or worse csfile.
