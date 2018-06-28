@@ -34,7 +34,7 @@ Update/deploy to project
 Develop/extend dmbase
 -------------------
 
-Set up new project/Convert existing project
+Set up new/Convert existing project to dmbase project
 =============
 1) Set up digimaker backend
 2) Checkout dmbase example
