@@ -118,6 +118,11 @@ Eg 2. Articles under a 'section':
 ```
 
 
+Principles
+==============
+- Id can only exist in config file(eg. web.config/digimaker.config/site.json). Never put id into template or worse csfile
+- Template file name/folder name can show the actual meaning. eg. article/full-agreement.cshtml means the agreement article in full mode
+
 
 
 
