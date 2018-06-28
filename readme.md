@@ -10,7 +10,7 @@ There are some benefits using DMBase:
 
 - Template override - make it easier to write template based on content(eg. article/menuitem attributes, subnode, content extension value).
 
-- Easily invoke shared feature. Shared feature can be invoked in below ways:
+- Easily reuse and upgrade shared feature. Shared feature can be invoked in below ways:
   1) C#/js api. eg. get content extension value, get tree structure from menuitem.
   2) cshtml partical render. eg. output an article(how is article outputed be up to the overrided templated)
   3) Remote api(json). eg. get children of a menuitem
