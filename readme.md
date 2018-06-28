@@ -32,32 +32,12 @@ script
 
 API Reference 
 ===========================
-1) Content model
+1) Content model(TBD)
 
-2) JS
+2) JS(TDB)
 
-3) PartialRender
+3) PartialRender(TBD)
 
-
-
-
-
-
-
-
-
-
-
-
-How to use dmgit to keep dmbase code synced?
------
-1) go to project root
-2) `git clone <dmbase repo> .dmbase`
-3) `git --git-dir/.dmbase/.git pull`
-4) use `./dmgit` like git or see below:(run below or put into .bash_profile so dmgit can be used globally)
-`alias dmgit='git --git-dir=.dmbase/.git'`
-5) Config dmgit exclude file(not using .gitignore but using .dmignore)
-`dmgit config core.excludesfile=.dmignore` or add `excludesfile=.dmignore` to `.dmbase/.git/config`
 
 
 Structure
@@ -66,22 +46,17 @@ Structure
  ### 1. Stylesheet
 - core.css - global style(eg h1, h2, a) and predefined core class(eg. .hide, .error, table.list )
 - content.css - content-related style(eg. .title{}, .description{}, .full .title{}, .blockitem .title{} )
-- mobile.css - responsive style
-- (in project repo)<projectname>.css - project related css
+- <proejectname>-mobile.css - responsive style
+- <projectname>.css - project related css
 
 
 ### 2. Javascript
-- scripts/dmbase.js - a base js for our project
-- (in project repo)scripts/<projectname>.css - project related script
+- Scripts/dmbase.js - a base js for our project
 
 ### 3. Tempaltes
-- views/standard - standard template
-- views/dmbase - default dmbase example templates
+- views/shared - shared template
 - view/<projectname> - project specific templates
 
-### 4. Classes
-Generic classes is put under App_Code/DMBase. Import classes:
-(TBD)
 
 ### 5. Configurations
  - site.json: (TBD)
