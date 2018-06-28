@@ -94,25 +94,25 @@ Features to be implemented
 
 - Content extension value override rule(override.json): 
 
-Eg 1.Direct attribute:
+Eg 1.Direct attribute: if content extension attribute Layout is 3 columns, use full-3columns.cshtml
 ```
 {
     "Type": "article",
     "Viewmode": "full",
     "Extended_Layout": "3columns",
     "Site": "examplesite",
-    "Path": "article/full-3column.cshtml"
+    "Path": "article/full-3columns.cshtml"
   }
 ```
 
-Eg 2. Articles under a 'section':
+Eg 2. Articles under a 'section': all the articles under section AboutUs(first level menuitem's content extension attribute Section's value is AboutUs) will use full-aboutus.cshtml
 ```
 {
     "Type": "article",
     "Viewmode": "full",
     "Under_Extended_1_Section": "AboutUs",
     "Site": "examplesite",
-    "Path": "article/full-3column.cshtml"
+    "Path": "article/full-aboutus.cshtml"
   }
 ```
 
