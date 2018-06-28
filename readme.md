@@ -14,9 +14,9 @@ Benefits
 
 - Common api and feature. eg. metadata output, google site search, print version, SEO(for instance canical link) etc. And with time, more features will be added and will be easy to use.
 
-- Error report to administrator. 
+- Nice error page(overridable to different site) and error report to administrator. 
 
-- Debug info so the administrator can quickly know the rendering process and performance.
+- Debug info so the administrator can quickly know the rendering process and performance benchmark.
 
 
 Update/deploy to project
