@@ -43,9 +43,11 @@ Set up new/Convert existing project to dmbase project
 5) site.json: config Host/Url, TemplatePath, RootMenuitemId, DefaultPageMenuitemId
 6) override.json: rename examplesite to you site identifier(site.json's key)
 7) Rename Views/ExampleSite to Views/\<TemplateFolder\>
-8) Done. Visit host/path. More will be on:
-- Configure override.json
-- Customize templates based on your need.
+8) Done. Visit host/path. 
+
+More development will be on:
+  - Configure override.json
+  - Customize templates based on your need.
 
 API Reference 
 ===========================
