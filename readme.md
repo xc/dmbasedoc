@@ -120,9 +120,13 @@ Eg 2. Articles under a 'section':
 
 Principles
 ==============
+Readability
+-------------
 - Id can only exist in config file(eg. web.config/digimaker.config/site.json). Never put id into template or worse csfile
 - Template file name/folder name can show the actual meaning. eg. article/full-agreement.cshtml means the agreement article in full mode
 
-
+Reusability
+----------
+- Try to make api/feature/template layout reuseable. Try to avoid writing duplicated code for same feature(eg. fetching content extension value), put api into dmbase first and optimize api to make it nicer.
 
 
