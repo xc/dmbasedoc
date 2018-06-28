@@ -63,7 +63,7 @@ Structure
 -----
 
  ### 1. Stylesheet
-- core.css - global style(eg h1, h2, a) and predefined core class(eg. .hide, .error, table.list )
+- core.css - global style(eg h1, h2, a) and predefined core class(eg. .hide, .error, table.list ) which can work together with bootstrap css if needed
 - content.css - content-related style(eg. .title{}, .description{}, .full .title{}, .blockitem .title{} )
 - \<proejectname\>-mobile.css - responsive style
 - \<projectname\>.css - project related css
