@@ -10,11 +10,13 @@ Benefits
 ===========
 - Multi sites - so multiple sites can be hosted in one digimaker instance(so different sites can share settings - eg. layout, css, uploaded images, and also code is more controlable/updatable in git ).
 
-- Template override - make it easier to write template based on content(eg. article/menuitem attributes, subnode, content extension value).
+- Template override - make it easier to write template based on content and site(eg. article/menuitem attributes, subnode, content extension value). (for instance, error message can be customzied based on error code and site, instead of a standard .net 500 technical error)
+
+- Shared feature. eg. metadata output, google site search, print version, etc. And with time, more features will be added and will be easy to use.
 
 - Easily reuse and upgrade shared feature in c#/js/template invoke.
 
-- Professional error report to administrator. 
+- Error report to administrator. 
 
 - Debug info so the administrator can quickly know the rendering process and performance.
 
