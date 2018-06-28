@@ -81,8 +81,7 @@ Features to be implemented
     {
     "Type": "article",
     "Viewmode": "full",
-    "Extended_Layout": "3columns",
-    "Path": "article/full-3column.cshtml"
+    "Path": "article/full.cshtml"
     }
     ...,
     "common":
