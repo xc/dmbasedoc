@@ -41,8 +41,11 @@ Set up new/Convert existing project to dmbase project
 3) Change digimkaer.config/ConnectionString to the right database connection
 4) Change digimaker.config/IgnoreDigimakerWebHandler/Path|Host , add site host or path into so these path/host will use MVC way not http handler(old digimaker way)
 5) site.json: config Host/Url, TemplatePath, RootMenuitemId, DefaultPageMenuitemId
-6) Rename Views/ExampleSite to Views/\<TemplateFolder\>
-7) Done. Visit host/path. Customize templates based on your need.
+6) override.json: rename examplesite to you site identifier(site.json's key)
+7) Rename Views/ExampleSite to Views/\<TemplateFolder\>
+8) Done. Visit host/path. More will be on:
+- Configure override.json
+- Customize templates based on your need.
 
 API Reference 
 ===========================
