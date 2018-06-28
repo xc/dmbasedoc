@@ -41,7 +41,7 @@ Set up new project
 3) Change digimkaer.config/ConnectionString to the right database connection
 4) Change digimaker.config/IgnoreDigimakerWebHandler/Path|Host , add site host or path into so these path/host will use MVC way not http handler(old digimaker way)
 5) site.json: config Host/Url, TemplatePath, RootMenuitemId, DefaultPageMenuitemId
-6) Rename Views/ExampleSite to Views/<TemplateFolder>
+6) Rename Views/ExampleSite to Views/\<TemplateFolder\>
 7) Done. Visit host/path. Customize templates based on your need.
 
 API Reference 
