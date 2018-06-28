@@ -122,7 +122,7 @@ Development Principles
 
 Readability
 -------------
-- ID can only exist in config file(eg. web.config/digimaker.config/site.json). Never put id into template or worse csfile.
+- ID can only exist in config file(eg. web.config/digimaker.config/site.json). Never put id into template or worse csfile. Use identifier in coding and mapping in config file or content instead.
 - Template file name/folder name should try to show the actual meaning. eg. article/full-agreement.cshtml means the agreement article in full mode
 
 Security&Stability
