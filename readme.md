@@ -105,7 +105,7 @@ Eg 1.Direct attribute: if content extension attribute Layout is 3 columns, use f
   }
 ```
 
-Eg 2. Articles under a 'section': all the articles under section AboutUs(first level menuitem's content extension attribute Section's value is AboutUs) will use full-aboutus.cshtml(eg. AboutUs/Compnay/History, AboutUs/Company/FincialReport)
+Eg 2. Articles under a 'section': all the articles under section AboutUs(first level menuitem's content extension attribute Section's value is AboutUs) will use full-aboutus.cshtml(eg. AboutUs/Compnay/History, AboutUs/Company/FinancialReport)
 ```
 {
     "Type": "article",
