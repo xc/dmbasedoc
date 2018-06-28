@@ -18,6 +18,13 @@ Benefits
 
 - Debug info so the administrator can quickly know the rendering process and performance benchmark.
 
+Improvements on Digimaker
+--------------------
+- Nice url without using mvc pattern instead of http handler, remvoving Norwegian characters so copy and paste looks better.
+- Handle picture in template/json(eg. define small, medium size) instead of settings in web.config
+- Article view can have different templates based on location/metadata/content extension values
+- Menuitem view invoking article view, article view invoking article view easier with override(comparing site builder).
+- Easier content/content extension fetching api
 
 Update/deploy to project
 ----------------------
