@@ -8,7 +8,7 @@ Example: http://dmbase.dev.digimaker.no
 
 Benefits
 ===========
-- Use MVC+razor templating - better way of templating and routing, comparing to asp.net+sitebuilder web control+http handler
+- Use MVC+razor templating - better way of templating and routing, comparing to asp.net+sitebuilder web control+http handler. Also it is easy same way as web api.
 
 - Multi sites - Multiple sites can be hosted in one digimaker instance without redirection(so different sites can share settings, resources,  - eg. layout, css, templates, uploaded images, and also code is more controlable/updatable in git ).
 
