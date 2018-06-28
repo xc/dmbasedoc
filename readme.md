@@ -25,7 +25,7 @@ Improvements based on Digimaker
 - Nice url using mvc pattern instead of http handler(easier to understand&extend), removing Norwegian characters so url copy and paste looks better.
 - [To be implemented]Handle picture in template/json(eg. define small, medium size) instead of settings in web.config
 - One menuitem/article can have different templates based on location/metadata/content extension values
-- Menuitem view can easily invoke article view, article view invoking article view easier with override(comparing site builder).
+- Menuitem view can easily invoke article view, article view invokes another article view easier with override(comparing site builder).
 - Easier content/content extension fetching api. 2 ways: fetch content extension value from article, fetch article/menuitem based on content extension values
 
 
