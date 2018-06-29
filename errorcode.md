@@ -7,8 +7,8 @@ INTERNAL ERROR CODE LIST
 
 4xx,5xx
 --------
-404: file not found
-500: unknow error
+- 404: file not found
+- 500: unknow error
 
 
 10xxx
