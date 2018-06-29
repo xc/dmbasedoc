@@ -1,11 +1,11 @@
 INTERNAL ERROR CODE LIST
 ===============
 
-4xx,5xx: http error code
-10***: general error message
-11***: feature specific error message(most in project level)
+- 4xx,5xx: http error code
+- 10***: general error message
+- 11***: feature specific error message(most in project level)
 
-4xx/5xx
+4xx,5xx
 --------
 404: file not found
 500: unknow error
